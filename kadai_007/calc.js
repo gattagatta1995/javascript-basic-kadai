@@ -1,5 +1,5 @@
 // 変数numに0～55までのランダムな整数を代入する
-let num = Math.floor(Math.random() * 56);
+let num = Math.floor(Math.random() * 55)+1;
 
 // 変数numが3と5の倍数の場合： “3と5の倍数です”と表示
 if (num % 3 === 0 && num % 5 === 0) {
